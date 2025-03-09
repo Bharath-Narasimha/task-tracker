@@ -1,0 +1,39 @@
+
+li {
+    list-style-type: none;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vh; 
+    max-width: 95%; 
+    align-items: center;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+  }
+  
+  .del {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    cursor: pointer; }
+  
+  .icon {
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    li {
+      width: 95%; 
+    }
+  }
+@media (min-width: 769px) and (max-width: 1024px) {
+    li {
+      width: 90%; 
+  }
+}
+  

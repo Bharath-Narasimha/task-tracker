@@ -1,0 +1,87 @@
+.task-manager {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 85vh;
+    max-width: 90%; 
+    margin: 0 auto; 
+    box-shadow:1px 1px 0px 0px #000;
+  }
+  
+  .heading {
+    font-size: 26px;
+    text-align: left;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+    flex-wrap: wrap; 
+  }
+  
+  input {
+    padding: 10px;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    width: 50vh;
+    max-width: 100%; 
+    margin: 10px;
+    align-self: center;
+    box-sizing: border-box; }
+  
+  .input-button {
+    background-color: #7528cc;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 40px;
+    align-self: center;
+    box-sizing: border-box;
+    white-space: nowrap;}
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  @media (max-width: 768px) {
+    .task-manager {
+      width: 100%; 
+      padding: 10px;
+    }
+  
+    .heading {
+      font-size: 20px; }
+  
+    input {
+      width: 100%; 
+      margin:10px 0px;
+    }
+  
+    .input-container {
+      flex-direction: column; 
+    }
+      .input-button {
+      width:100%;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .task-manager {
+      width: 95%;   }
+  
+    .heading {
+      font-size: 24px; 
+    }
+  
+    input {
+      width: 80%; 
+    }
+  }
+  
